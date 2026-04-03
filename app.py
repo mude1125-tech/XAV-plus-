@@ -205,4 +205,4 @@ with gr.Blocks(title="XAV 정산 자동화") as app:
     )
 
 if __name__ == '__main__':
-    app.launch(theme=gr.themes.Soft())
+    app.launch(theme=gr.themes.Soft(), share=True)
